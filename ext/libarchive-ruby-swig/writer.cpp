@@ -178,6 +178,9 @@ void Writer::set_format_helper(struct archive *ar, int format)
         case Archive::FORMAT_TAR_USTAR:
             archive_write_set_format_ustar(ar);
             break;
+        case Archive::FORMAT_RAW:
+            archive_write_set_format_raw(ar);
+            break;
         default:
             error_msg = "unknown or unsupported archive format";
             throw Error(error_msg);

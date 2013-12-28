@@ -35,7 +35,8 @@ namespace Archive
         FORMAT_TAR_PAX_RESTRICTED,
         FORMAT_TAR_USTAR,
         FORMAT_TAR_OLDTAR,
-        FORMAT_ZIP
+        FORMAT_ZIP,
+        FORMAT_RAW
     };
 
     enum {
