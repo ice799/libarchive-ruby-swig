@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "libarchive-ruby-swig"
+  s.name = "packagecloud-libarchive-ruby-swig"
   s.version = "0.6.2"
   s.date = "2013-12-28"
   s.authors = ["Tobias Koch"]
